@@ -1,1 +1,1 @@
-# Computer-Science-Society-Cave-Hill-Campus.github.io
+# CSS-CaveHill-Campus.github.io
