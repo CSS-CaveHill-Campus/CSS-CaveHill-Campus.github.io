@@ -1,0 +1,46 @@
+<nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <a class="navbar-item" href="index.html">
+            <img src="media/cssLogo.png" alt="CSS Logo" style="object-fit:contain">
+            <h1 class="subtitle">Computer Science Society</h1>
+        </a>
+
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+    </div>
+
+    <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start">
+            <a class="navbar-item" hx-get="pages/main.html" hx-target="#MainSection">
+                Home
+            </a>
+
+            <a class="navbar-item" hx-get="pages/about.html" hx-target="#MainSection">
+                About
+            </a>
+
+            <a class="navbar-item" hx-get="pages/schedule.html" hx-target="#MainSection">
+                Schedule
+            </a>
+
+        </div>
+
+        <div class="navbar-end">
+            <div class="navbar-item">
+                <a class="navbar-item" hx-get="pages/projects.html" hx-target="#MainSection">
+                    Projects
+                </a>
+                <a class="navbar-item" href="https://discord.gg/DMeJbSVJmb">
+                    Discord
+                </a>
+                <a class="navbar-item" href="https://www.instagram.com/css_fst">
+                    Instagram
+                </a>
+            </div>
+        </div>
+    </div>
+</nav>
